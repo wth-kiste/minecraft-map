@@ -37,6 +37,7 @@ RUN set -x && \
 
 USER minecraft
 
+
 ARG MC_VERSION
 ENV MC_VERSION ${MC_VERSION:-1.10}
 
